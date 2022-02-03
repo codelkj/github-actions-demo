@@ -8,5 +8,5 @@ lint:
 	pylint --disable=R,C hello.py
 	
 test:
-	python3 -m pytest -vv --cov=hello test_hello.py
+	python -m pytest -vv --cov=hello test_hello.py
 	
